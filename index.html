@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WeTube is a creator-focused tool for managing authorized YouTube channels and publishing videos with clear user control.">
+  <meta name="theme-color" content="#0d0d10">
+  <title>WeTube — YouTube channel management, simplified</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="/" aria-label="WeTube home">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span>WeTube</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#security">Security</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> Built for YouTube creators</div>
+        <h1>Manage your channels.<br><span>Publish with control.</span></h1>
+        <p class="lead">WeTube helps creators work with their own authorized YouTube channels from one focused workspace — upload videos, manage metadata, organize content, and review channel information.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#features">Explore features</a>
+          <a class="button ghost" href="/privacy/">Read Privacy Policy</a>
+        </div>
+        <div class="trust-row">
+          <span>OAuth 2.0 authorization</span>
+          <span>User-controlled actions</span>
+          <span>No YouTube passwords collected</span>
+        </div>
+      </div>
+
+      <div class="product-card" aria-label="WeTube product preview">
+        <div class="window-bar"><span></span><span></span><span></span><div class="window-title">WeTube Studio</div></div>
+        <div class="app-grid">
+          <aside class="sidebar">
+            <div class="mini-brand"><b>W</b></div>
+            <div class="side-item active"></div>
+            <div class="side-item"></div>
+            <div class="side-item"></div>
+            <div class="side-item"></div>
+          </aside>
+          <div class="dashboard">
+            <div class="dash-head"><div><small>Channel workspace</small><strong>Creator dashboard</strong></div><button>Upload video</button></div>
+            <div class="stats">
+              <div class="stat"><small>Videos</small><b>248</b><i>Published</i></div>
+              <div class="stat"><small>Views</small><b>1.8M</b><i>Channel data</i></div>
+              <div class="stat accent"><small>Uploads</small><b>12</b><i>This week</i></div>
+            </div>
+            <div class="content-panel">
+              <div class="panel-title"><strong>Recent videos</strong><span>Status</span></div>
+              <div class="video-row"><div class="thumb"><span>▶</span></div><div><b>Latest upload</b><small>Metadata ready</small></div><em>Public</em></div>
+              <div class="video-row"><div class="thumb alt"><span>▶</span></div><div><b>Scheduled video</b><small>Ready to publish</small></div><em class="scheduled">Scheduled</em></div>
+              <div class="video-row"><div class="thumb dark"><span>▶</span></div><div><b>Draft upload</b><small>Waiting for review</small></div><em class="draft">Private</em></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="features">
+      <div class="section-heading">
+        <div class="eyebrow">Creator workflow</div>
+        <h2>Everything around publishing, without the clutter.</h2>
+        <p>WeTube is designed to reduce repetitive channel work while keeping important YouTube actions visible and under the creator’s control.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="icon">↑</div><h3>Video publishing</h3><p>Upload videos to an authorized channel and set title, description, category, privacy status and other supported metadata before publishing.</p></article>
+        <article class="feature-card"><div class="icon">▤</div><h3>Content management</h3><p>Review and manage uploaded videos, playlists and channel-related information through one organized workspace.</p></article>
+        <article class="feature-card"><div class="icon">◫</div><h3>Multiple authorized channels</h3><p>Work with channels explicitly connected through Google OAuth. WeTube never asks for or stores a YouTube password.</p></article>
+        <article class="feature-card"><div class="icon">✓</div><h3>Explicit user actions</h3><p>Upload, update and visibility-changing actions are presented to the user before execution. The connected channel remains in control.</p></article>
+        <article class="feature-card"><div class="icon">↻</div><h3>Current channel data</h3><p>Where channel information is displayed, WeTube uses YouTube API Services and refreshes stored API data as required by applicable policies.</p></article>
+        <article class="feature-card"><div class="icon">⌁</div><h3>Focused creator tools</h3><p>A streamlined interface built around legitimate creator workflows rather than recreating the YouTube viewing experience.</p></article>
+      </div>
+    </section>
+
+    <section class="security-section" id="security">
+      <div class="shell security-grid">
+        <div>
+          <div class="eyebrow">Privacy & control</div>
+          <h2>Your channel stays yours.</h2>
+          <p>WeTube uses Google OAuth 2.0 to request only the permissions needed for enabled features. You can revoke WeTube’s access from your Google Account at any time.</p>
+          <div class="security-links"><a href="/privacy/">Privacy Policy →</a><a href="/data-deletion/">Data deletion & revocation →</a></div>
+        </div>
+        <div class="security-list">
+          <div><b>01</b><span><strong>No credential collection</strong><small>WeTube does not request, collect or store your Google or YouTube password.</small></span></div>
+          <div><b>02</b><span><strong>Authorization is revocable</strong><small>Access is based on permissions you grant through Google and can be revoked at any time.</small></span></div>
+          <div><b>03</b><span><strong>Clear data controls</strong><small>Users can request deletion of stored account-related data through the documented process.</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta shell">
+      <div><div class="eyebrow">WeTube</div><h2>A cleaner workflow for serious channel management.</h2></div>
+      <a class="button primary" href="/contact/">Contact</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div><a class="brand" href="/"><span class="brand-mark">W</span><span>WeTube</span></a><p>Independent creator tooling for authorized YouTube channel management.</p></div>
+      <div><b>Product</b><a href="#features">Features</a><a href="#security">Security</a><a href="/contact/">Contact</a></div>
+      <div><b>Legal</b><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a><a href="/data-deletion/">Data deletion</a></div>
+      <div><b>Platform policies</b><a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms</a><a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a></div>
+    </div>
+    <div class="shell copyright">© 2026 WeTube. WeTube is an independent application and is not affiliated with or endorsed by YouTube or Google.</div>
+  </footer>
+</body>
+</html>
